@@ -30,7 +30,7 @@ export default async function RootLayout({
     <html lang="en">
       <body className={font.className}>
         <ClientOnly>
-          <ToasterProvider />x
+          <ToasterProvider />
           <LoginModal />
           <RentModal />
           <RegisterModal />
